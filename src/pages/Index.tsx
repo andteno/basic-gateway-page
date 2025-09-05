@@ -24,7 +24,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-subtle flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20 flex items-center justify-center p-6">
       <div className="w-full max-w-md space-y-8">
         {/* Header */}
         <div className="text-center space-y-2">
@@ -56,7 +56,7 @@ const Index = () => {
         </div>
 
         {/* Login Form */}
-        <Card className="p-6 space-y-6 shadow-medium">
+        <Card className="p-6 space-y-6 shadow-lg border border-border">
           <h2 className="text-lg font-semibold text-foreground text-center">Sign In</h2>
           
           <div className="space-y-4">
